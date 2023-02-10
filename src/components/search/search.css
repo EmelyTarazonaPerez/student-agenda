@@ -1,0 +1,22 @@
+.search_input{
+    margin-top: 50px !important;
+}
+.info_input{
+    align-items: center;
+
+}
+.input_search{
+    border-radius: 25px;
+    border-color: red;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.input_search:hover{
+    border-color: aqua;
+}
+.icono_search {
+    font-size: 20px;
+}

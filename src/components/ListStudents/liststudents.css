@@ -1,0 +1,16 @@
+.contenedor_tabla{
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.icono_path:hover{
+    color: rgb(247, 190, 32);
+    font-size: 20px;
+}
+
+
+.icono_delete:hover{
+    color: rgb(246, 65, 58);
+    font-size: 15px;
+    font-size: 20px;
+}

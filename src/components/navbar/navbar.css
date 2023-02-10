@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+.navbar_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+}
+
+.info_api{
+    width: 100%;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+}
+.container_user {
+    align-items: center;
+    display: flex;
+    padding: 10PX;
+}
+
+.icono_navbar{
+    font-size: 30px;
+    color: aliceblue;
+}
