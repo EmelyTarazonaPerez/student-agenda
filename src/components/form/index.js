@@ -1,7 +1,7 @@
 import React from "react";
 import './form.css'
 
-function FormNewStudent({ setBody, body, mensaje, openFormUpdate, openFormCreate, elementId, setElementId }) {
+function FormNewStudent({ setBody, body, openFormUpdate, openFormCreate, elementId, setElementId }) {
 
 
     const handleChange = (e) => {
@@ -53,7 +53,7 @@ function FormNewStudent({ setBody, body, mensaje, openFormUpdate, openFormCreate
 
     return (
         <form onSubmit={handleSubmit} className="form">
-            <legend className="form_title">{mensaje}</legend>
+            <legend className="form_title">{openFormCreate?'Create new student':'Update student'}</legend>
             <p className="form_paragraph">Fill in the fields</p>
             <div className="form_container">
                 <div className="form_group">
