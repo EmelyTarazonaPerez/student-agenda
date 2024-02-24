@@ -1,4 +1,4 @@
-# Descripcion de la app.
+# Descripcion de la app
 
 Gestionar el agendamiento de estudiantes
 mediante un CRUD haciendo peticiones a una
